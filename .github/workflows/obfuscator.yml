@@ -3,9 +3,6 @@ name: Obfuscate and Commit
 on:
   schedule:
     - cron: "50 23 * * *" # every day
-    #push:
-    #    paths:
-    #        - '明文源码.js'
     workflow_dispatch:
 
 jobs:

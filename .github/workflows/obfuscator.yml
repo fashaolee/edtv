@@ -5,6 +5,8 @@ on:
     #    paths:
     #        - '明文源码.js'
     workflow_dispatch:
+    schedule:
+    - cron: "0 0 * * *" # every day
 
 jobs:
   obfuscate:

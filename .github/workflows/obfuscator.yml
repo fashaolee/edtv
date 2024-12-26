@@ -6,7 +6,7 @@ on:
     #        - '明文源码.js'
     workflow_dispatch:
     schedule:
-    - cron: "0 0 * * *" # every day
+    - cron: "0 1 * * *" # every day
 
 jobs:
   obfuscate:
